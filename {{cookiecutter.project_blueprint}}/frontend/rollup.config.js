@@ -10,7 +10,7 @@ const production = !process.env.ROLLUP_WATCH;
 
 function serve() {
 	let server;
-	
+
 	function toExit() {
 		if (server) server.kill(0);
 	}
@@ -46,7 +46,16 @@ export default {
 			css: css => {
 				css.write('bundle.css');
 			},
-			preprocess: sveltePreprocess(),
+			preprocess: sveltePreprocess({
+				sourceMap: !production,
+				postcss: {
+				  plugins: [
+					 require("tailwindcss"),
+					 require("autoprefixer"),
+					 require("postcss-nesting")
+				  ],
+				},
+			  }),
 		}),
 
 		// If you have external dependencies installed from
