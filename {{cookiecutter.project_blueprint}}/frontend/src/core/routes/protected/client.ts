@@ -1,0 +1,4 @@
+const clientRoutes = [
+];
+
+export { clientRoutes };

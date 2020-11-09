@@ -5,6 +5,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
+    "start-spa": "sirv public --single",
+    "start-dev-spa": "sirv public --dev --single",
     "validate": "svelte-check"
   },
   "devDependencies": {
