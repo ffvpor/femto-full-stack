@@ -1,5 +1,5 @@
-import { publicRoutes } from "./core/routes/public"
-import { protectedRoutes } from "./core/routes/protected"
+import { publicRoutes } from "./services/routes/public"
+import { protectedRoutes } from "./services/routes/protected"
 
 const routes = [...publicRoutes, ...protectedRoutes];
 
