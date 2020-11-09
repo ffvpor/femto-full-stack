@@ -20,6 +20,7 @@
     "svelte": "^3.29.4",
     "svelte-check": "^1.1.11",
     "svelte-preprocess": "^4.5.2",
+    "svelte-router-spa": "^5.8.0",
     "tailwindcss": "^1.9.6",
     "@rollup/plugin-typescript": "^6.1.0",
     "typescript": "^4.0.5",
