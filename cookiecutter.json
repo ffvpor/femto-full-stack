@@ -1,0 +1,5 @@
+{
+  "project_name": "Base Project",
+  "project_blueprint": "{{cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "project_short_description": "Describe your project (short!)"
+}
