@@ -1,5 +1,21 @@
 {
   "project_name": "Base Project",
   "project_blueprint": "{{cookiecutter.project_name|lower|replace(' ', '-') }}",
-  "project_short_description": "Describe your project (short!)"
+  "project_short_description": "Describe your project (short!)",
+
+  "domain_main": "{{cookiecutter.project_blueprint}}.org",
+
+  "backend_cors_origins": "[\"http://localhost\", \"http://localhost:8000\", \"http://localhost:8002\", \"http://localhost:5000\"]",
+
+  "secret_key": "changethis",
+  "first_superuser": "admin@{{cookiecutter.domain_main}}",
+  "first_superuser_password": "changethis",
+
+  "sqlalchemy_database_uri": "sqlite:///./app/app.db",
+
+  "_copy_without_render": [
+      "frontend/src/*",
+      "frontend/node_modules/*",
+      "backend/app/app/email-templates/**"
+  ]
 }
