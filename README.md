@@ -8,6 +8,8 @@ My meeds: experiments and learn ! From this [template](https://github.com/tiango
 
 Note on *partial*: As backend is "complete" (remove code is easy!), frontend is'nt! Due to the complete rewrite from Vue/Vuetify to Svelte/Tailwind.
 
+**Important note**: For now, the backend code is completely copied from the original model. It's a form of plagiarism, but as I learn, I would try to be creative!
+
 ## App Features
 
 In his near future state, this model will offer some basic, but still important features:
@@ -56,7 +58,7 @@ cookiecutter https://github.com/ffvpor/femto-full-stack.git
 ### Input variables
 
 - ```project_name```: The name of the project.
-- ```project_blueprint``` :
+- ```project_blueprint``` : Used for project directory. By default, based on project_name
 - ```project_short_description```: Few words about your project.
 - ```domain_main```: For future project deployment in production.
 - ```backend_cors_origins```: Enabled domains (Origin) for CORS (Cross Origin Resource Sharing) to allow communication between backend and frontend.
@@ -65,7 +67,7 @@ cookiecutter https://github.com/ffvpor/femto-full-stack.git
 - ```first_superuser_password```: Administrator password, **strong** as possible.
 - ```sqlalchemy_database_uri```: The connection string to SQLite. By default, "sqlite:///./app/app.db".
 
-Use command below -- in another terminal -- to generate password and secret keys as asked:
+Use command below in another terminal to generate password and secret keys as asked:
 
 ```zsh
 $ openssl rand -hex 32
