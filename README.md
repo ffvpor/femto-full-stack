@@ -4,7 +4,7 @@ Quickly build web application stack (for prototyping - but not only - or for lea
 
 ## Background
 
-My meeds: experiments and learn ! From this template ^[https://github.com/tiangolo/full-stack-fastapi-postgresql], I spent many hours analyzing tons of code and reading thousands of pages of documentation to better understand the concepts! So, I decided to simplify as much as possible and only keep what I needed. Here is the partial result! I hope my work will help you!
+My meeds: experiments and learn ! From this [template](https://github.com/tiangolo/full-stack-fastapi-postgresql), I spent many hours analyzing tons of code and reading thousands of pages of documentation to better understand the concepts! So, I decided to simplify as much as possible and only keep what I needed. Here is the partial result! I hope my work will help you!
 
 Note on *partial*: As backend is "complete" (remove code is easy!), frontend is'nt! Due to the complete rewrite from Vue/Vuetify to Svelte/Tailwind.
 
