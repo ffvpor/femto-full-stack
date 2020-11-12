@@ -32,10 +32,12 @@ INFO:     Application startup complete.
 
 **Note on uvicorn command line options**
 
-- --host TEXT       Bind socket to this host.  [default:127.0.0.1]
-- --port INTEGER    Bind socket to this port.  [default: 8000]
-- app.main:app      Used the object ```app``` in main.py inside ```app``` sub-directory (starting from path/to/your/project/directory/backend/app)
-- --reload          Restart server after code changes. Only in dev mode!
+| Option       | Comment                    | Default value |
+| ------------ | -------------------------- | ------------- |
+| --host       | Bind socket to this host.  | 127.0.0.1     |
+| --port       | Bind socket to this port.  | 8080          |
+| app.main:app | Used the object ```app``` in main.py inside ```app``` sub-directory (starting from path/to/your/project/directory/backend/app)  | ---          |
+| --reload     | Restart server after code changes. Only in dev mode!  | ---          |
 
 For more details, see [here](https://www.uvicorn.org/#usage)
 
