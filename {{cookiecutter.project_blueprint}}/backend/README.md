@@ -18,6 +18,15 @@ Spawning shell within path/to/your/project/directory/backend/app/.venv
 . path/to/your/project/directory/backend/app/.venv/bin/activate
 ```
 
+Next, create initial data in database
+
+```zsh
+$ python app/initial_data.py
+# Success if:
+INFO:__main__:Creating initial data
+INFO:__main__:Initial data created
+```
+
 Then, it's time to launch [uvicorn](https://www.uvicorn.org/)
 
 ```zsh
