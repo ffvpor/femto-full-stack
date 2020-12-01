@@ -91,3 +91,6 @@ Use command below in another terminal to generate password and secret keys as as
 $ openssl rand -hex 32
 # Outputs something like: c3cbd330748fa67f39989b601ba04411164153646c9b5445c65cf5404580b2dc
 ```
+## Contributing
+
+Please read our [contributing guide](https://github.com/ffvpor/femto-full-stack/CONTRIBUTING.md)
