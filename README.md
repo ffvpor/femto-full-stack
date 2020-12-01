@@ -94,4 +94,4 @@ $ openssl rand -hex 32
 
 ## Contributing
 
-Please read our [contributing guide](https://github.com/ffvpor/femto-full-stack/CONTRIBUTING.md)
+Please read our [contributing guide](./CONTRIBUTING.md)
