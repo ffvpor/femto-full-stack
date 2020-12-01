@@ -19,10 +19,10 @@ $ tree -L 1
 ### Create new project
 
 ```zsh
-$ femto-full-stack/scripts/set-dev-ffs.sh
+$ femto-full-stack/scripts/set-ffs-dev.sh
 ```
 
-What happens when we launch the script ```set-dev-ffs```?
+What happens when we launch the script ```set-ffs-dev```?
 
 - First, it check if we are at the same level than cloned generator,
 - then remove the previous environment
@@ -116,3 +116,14 @@ Navigate to localhost:5000. You should see your app running. Edit any file in ``
 ## Retrofit your changes
 
 It's time to update the generator with your changes.
+
+```zsh
+$ femto-full-stack/scripts/set-ffs-back.sh
+```
+
+What happens when we launch the script ```set-ffs-back```?
+
+- Again, it check if we are at the same level than cloned generator,
+- then remove python __pycache__ files (if Linux)
+- then remove files in femto-full-stack/{{cookiecutter.project_blueprint}}
+- and, finally it synchronize new files, thanks to *rsync*!
