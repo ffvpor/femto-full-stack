@@ -7,7 +7,7 @@ Thanks for your interest in contributing to `femto-full-stack` generator! Please
 ### Clone femto-full-stack generator
 
 ```zsh
-$ cd path/to/yout/base/dev/env
+$ cd path/to/your/base/dev/env
 $ git clone https://github.com/ffvpor/femto-full-stack.git
 $ tree -L 1
 .
