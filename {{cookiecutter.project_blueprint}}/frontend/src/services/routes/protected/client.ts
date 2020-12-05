@@ -1,4 +1,0 @@
-const clientRoutes = [
-];
-
-export { clientRoutes };

@@ -1,10 +1,10 @@
 <script lang="ts">
-	export let name: string;
+  import { Router } from 'svelte-router-spa';
+  import { routes } from './routes';
 </script>
 
 <main class="h-screen flex flex-col items-center justify-center">
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Router {routes} />
 </main>
 
 <style global lang="postcss">

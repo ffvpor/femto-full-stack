@@ -1,0 +1,4 @@
+const userRoutes = [
+];
+
+export { userRoutes };
